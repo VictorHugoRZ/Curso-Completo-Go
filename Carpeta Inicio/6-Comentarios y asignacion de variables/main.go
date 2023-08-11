@@ -15,8 +15,8 @@ func main() {
 	var texto2 string   //No asignar valor a variables de tipo string setea la variable en un string vacio
 	fmt.Println(texto2) //""
 
-	var numero2 int //El valor es cero 0, ya que no asignamos valor pero esta vez se declaro dentro de la funcion
-	fmt.Println(numero2)
+	var numero2 int      //El valor es cero 0, ya que no asignamos valor pero esta vez se declaro dentro de la funcion
+	fmt.Println(numero2) //0
 
 	variable := 'A'       //Declaracion de variables, si se usan comillas simples es para un solo caracter 'A'
 	fmt.Println(variable) //65, esto por que el valor se traduce en codigo asccii
@@ -44,7 +44,7 @@ func main() {
 	fmt.Println(v5)                 //23
 	fmt.Println(v6)                 //34
 
-	//Asignacion multiple de variables sIn delaracion con palabra reservada
+	//Asignacion multiple de variables sin delaracion con palabra reservada
 
 	variableA, variableB, variableC := 10, 20, 30
 	fmt.Println(variableA) //10
