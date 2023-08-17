@@ -8,7 +8,8 @@ import (
 func main() {
 	fmt.Println("Hola")
 
-	var cadena string = "Hola Victor"
+	var cadena string = "Hola Victor" //Se usan comillas dobles para declarar strings y comillas simples
+	//para caracteres individuales
 
 	fmt.Println(reflect.TypeOf(cadena))
 }
