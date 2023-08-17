@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("Introduce tu direccion: " + direccion)
 	fmt.Scanln(&direccion)
 
-	fmt.Println("Introduce tu edad: ", edad)
+	fmt.Println("Introduce tu edad: ")
 	fmt.Scanln(&edad)
 
 	fmt.Println("Introduce tu profesion: " + profesion)
