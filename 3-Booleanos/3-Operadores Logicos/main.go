@@ -9,5 +9,6 @@ func main() {
 	num4 := 40
 
 	fmt.Println(num1 < num2 && num3 == num4) //false
+
 	fmt.Println(num1 != num2 || num3 > num4) //true
 }
