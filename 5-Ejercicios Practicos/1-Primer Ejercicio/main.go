@@ -9,12 +9,12 @@ func main() {
 	fmt.Println("Vamos de viaje!")
 	fmt.Println("¿Cual es tu nombre?")
 	fmt.Scanln(&nombre)
-	fmt.Println("-")
+	fmt.Println("--------------------------")
 	fmt.Println("Bienvenido " + nombre + "!")
 	fmt.Println("Nuestro destino es México, ¿Por que medio quieres llegar?")
 	fmt.Println("¿Por Avion o Barco?")
 	fmt.Scanln(&transporte)
-	fmt.Println("-")
+	fmt.Println("-------------------")
 	fmt.Println("Excelente eleccion!")
 
 	if transporte == "Avion" || transporte == "avion" {
