@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	//Defer
 	//La palabra clave defer nos permite "saltar" una seccion de codigo determinada para que esta se ejecute
-	//despues de todo el codigo siguiente
+	//despues de todo el codigo siguiente.
 
 	defer fmt.Println("Este mensaje va primero")
 	fmt.Println("Este mensaje va segundo")
