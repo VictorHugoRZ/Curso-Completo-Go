@@ -30,4 +30,13 @@ func main() {
 
 	fmt.Println(personas[4]) //Amparo
 	//De esta manera podemos consultar informacion dentro de nuestro array
+
+	familia := [2]string{"Sabrina", "Victor"}
+	fmt.Println(familia) //[Sabrina Victor]
+	//De esta manera podemos declarar arrays dandoles un valor inicial
+
+	familia[0] = "Alejandra"
+	fmt.Println(familia) //[Alejandra Victor]
+	//De esta manera reasignamos valores dentro del array
+
 }
