@@ -14,8 +14,8 @@ func main() {
 
 	// Este mensaje va segundo
 	// Este mensaje va tercero
-	// Este mensaje va primero
 	// Este mensaje va cuarto
+	// Este mensaje va primero
 
 	//No se recomienda utilizar mas de un defer en nuestro codigo, ya que el efecto de este se puede volver
 	//un poco impredecible
