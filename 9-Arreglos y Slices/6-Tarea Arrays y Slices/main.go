@@ -12,4 +12,6 @@ func main() {
 	bolsa = append(bolsa, "3 galones de Agua")
 
 	fmt.Println("Maria ha comprado los siguientes productos:", bolsa)
+	//Maria ha comprado los siguientes productos:
+	//[Una bolsa de Pan Dos libras de Carne 6 libras de Arroz 2 bolsas de Verdura 3 galones de Agua]
 }
