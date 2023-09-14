@@ -11,7 +11,7 @@ func main() {
 		"Ajonjolí",
 	}
 
-	fmt.Println("¿Desea agregar algo mas a su carrito?")
+	fmt.Println("¿Desea agregar algo más a su carrito?")
 	fmt.Scanln(&decision)
 
 	if decision == "no" || decision == "No" || decision == "NO" {
