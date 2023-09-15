@@ -19,3 +19,8 @@ func main() {
 
 /*Podemos definir funciones con la palabra reservada func, el nombre de nuestra funcion, parentesis
 y llaves para definir el cuerpo de la funcion*/
+
+/*func <Nombre de la funcion>() {
+	<Cuerpo de la funcion>
+}
+*/
