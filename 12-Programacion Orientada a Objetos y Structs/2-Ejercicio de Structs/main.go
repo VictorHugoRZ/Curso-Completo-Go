@@ -10,6 +10,7 @@ type ListaInvitados struct {
 }
 
 func main() {
+
 	invitado1 := ListaInvitados{001, "Victor", "Ramirez", 25} //Se utilizan llaves {}
 	fmt.Println(invitado1)                                    //{1 Victor Ramirez 25}
 
@@ -22,4 +23,5 @@ func main() {
 
 	fmt.Println("Invitado:", invitado2.Numero, "Nombre:", invitado2.Nombre, "Edad:", invitado2.Edad)
 	//Invitado: 2 Nombre: Hugo Edad: 25
+
 }
