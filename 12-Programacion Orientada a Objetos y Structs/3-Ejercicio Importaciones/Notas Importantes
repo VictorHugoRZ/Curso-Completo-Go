@@ -1,0 +1,12 @@
+
+Al nosotros crear paquetes dentro de Go, podemos definir si el acceso de nuestras variables, 
+funciones, structs, etc... Esto lo controlaremos manipulando los nombres de estos datos, si 
+inicializamos alguno de estos datos con minuscula, entonces el acceso sera privado, esto quiere
+decir que solo podremos acceder a esos datos dentro del mismo archivo o paquete.
+Si inicializamos estos datos con mayuscula, entonces el acceso sera publico, esto quiere decir 
+que podremos importar estos datos desde cualquier otro paquete y podremos acceder a ellos, asi 
+como manipularlos.
+
+- var nombre string -variable de tipo privada-
+
+- var Apellido string -variable de tipo publica-
