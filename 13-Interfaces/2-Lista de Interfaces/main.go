@@ -46,21 +46,27 @@ func main() {
 	fmt.Println("¿Desea realizar una suma o resta?")
 	fmt.Scanln(&decision)
 	if decision == "suma" || decision == "Suma" || decision == "SUMA" {
+
 		fmt.Println("Perfecto, ingrese los valores de la suma:")
 		//fmt.Println("Primer valor; ")
 		fmt.Scanln(&suma.numero)
 		//fmt.Println("Segundo valor;")
 		fmt.Scanln(&suma.numero1)
 		Operacion(suma)
+
 	} else if decision == "resta" || decision == "Resta" || decision == "RESTA" {
+
 		fmt.Println("Perfecto, ingrese los valores de la resta:")
 		//fmt.Println("Primer valor; ")
 		fmt.Scanln(&resta.numero2)
 		//fmt.Println("Segundo valor;")
 		fmt.Scanln(&resta.numero3)
 		Operacion(resta)
+
 	} else {
+
 		fmt.Println("Ingrese una operacion valida para realizar")
+
 	}
 
 }
